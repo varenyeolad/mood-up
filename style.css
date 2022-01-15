@@ -1,0 +1,43 @@
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+    line-height: 2em;
+    overflow-x: hidden;
+   
+}
+
+
+#tm-video-container {
+    max-height: 1080px; /*full-size*/
+    overflow: hidden;
+}
+
+
+#myBtn {
+    font-size: 300%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #f1f1f1;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    font-size: 40px;
+}
+
+#tm-video { 
+    width: 100%;
+    height: auto;
+}
+.content {
+    position: fixed;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+}

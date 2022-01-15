@@ -1,0 +1,59 @@
+.top-menu {
+    background: rgba(255,255,255,.5);
+    box-shadow: 3px 0 7px rgba(0,0,0,.3);
+    padding: 20px;
+}
+/*justa box properties*/
+.memes ul li {
+    display: inline-block;
+    width: 410px;
+    height: 380px;
+    margin: 0px 0 20px;
+    vertical-align: top;
+    text-align: left;
+}
+.memes ul {
+    text-align: center;
+    margin: 0px 0 10px;
+}
+
+.video ul {
+    
+    text-align: center;
+    margin: 0px 0 10px;
+}
+
+  
+
+    .video ul li {
+        display: inline-block;
+        width: 600px;
+        height: 300px;
+        margin: 0px 0 20px;
+      
+        vertical-align: top;
+        text-align: left;
+       
+       
+    }
+.menu-main li {
+    display: inline-block;
+}
+/*all lists are in one line*/
+.menu-main a {
+    text-decoration: none;
+    display: block;
+    position: relative;
+    line-height: 61px;
+    padding-left: 20px;
+    font-size: 18px;
+    letter-spacing: 2px;
+    font-family: 'Arimo', sans-serif;
+    font-weight: bold;
+    color: #F73E24;
+}
+body {
+    background-image: url(images/wallp1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
