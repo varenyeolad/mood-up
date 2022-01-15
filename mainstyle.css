@@ -1,0 +1,106 @@
+/*html {
+    scroll-behavior: smooth;
+    overflow-x: scroll;
+}*/
+.top-menu {
+  background: rgba(255,255,255,.5);
+  box-shadow: 3px 0 7px rgba(0,0,0,.3);
+  padding: 20px;
+} /*justa box properties*/
+
+
+.menu-main li {display: inline-block;}  /*all lists are in one line*/
+.menu-main a {
+  text-decoration: none;
+  display: block;
+  position: relative;
+  line-height: 61px;
+  padding-left: 20px;
+  font-size: 18px;
+  letter-spacing: 2px;
+  font-family: 'Arimo', sans-serif;
+  font-weight: bold;
+  color: #F73E24;
+}
+
+
+body{
+    background-color:#fd6f96;
+}
+
+.content {
+    color: #ffe666;
+    background-size: cover;
+    padding-bottom: 100px;
+}
+
+.main_div {
+    display: contents;
+    font-family: 'Comic Sans MS','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 35px;
+    padding: 20px;
+
+}
+#h2{
+    float: right;
+    width: 1000px;
+   text-align:center;
+   font-size: 42px;
+}
+.stalin_img {
+    padding-top:10px;
+    float:left;
+    height:80px;
+}
+.main_text {
+    padding-left: 600px;
+    width: 1000px;
+    word-wrap:break-word;
+    
+}
+
+
+h2, h3 {
+    text-align: center;
+}
+
+.section {
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+    padding-top:200px;
+    background-image: url(images/dance.gif);
+    padding-bottom:200px;
+    
+}
+
+figure {
+    border: 10px solid #77dd77;
+    margin: 20px 20px;
+    padding: 0;
+}
+
+    figure.image {
+        display: inline-block;
+        position: relative;
+    }
+
+    figure img {
+        display: block;
+        height: auto;
+        max-width: 100%;
+    }
+
+figcaption {
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: .2em 0;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+}
+
+    figcaption span {
+        font-size: 20px;
+    }
